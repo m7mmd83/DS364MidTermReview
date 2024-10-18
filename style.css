@@ -55,7 +55,7 @@ dt {
     color: darkred;
 }
 
-@media (orientation: portrait) {
+@media (pointer: coarse) {
     body {
         font-size: 9em;
     }

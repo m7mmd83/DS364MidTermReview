@@ -54,3 +54,9 @@ dt {
     margin-bottom: 3px;
     color: darkred;
 }
+
+@media (orientation: portrait) {
+    body {
+        font-size: 9em;
+    }
+}

@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: cadetblue;
+    background-color: rgb(68, 94, 131);
+    font-size: 1.5em;
 }
 
 #mainTitle {
@@ -46,6 +47,7 @@ div {
     padding: 5px;
     background-color: aliceblue;
     page-break-inside: avoid;
+    box-shadow: inset;
 }
 
 dt {
@@ -53,6 +55,10 @@ dt {
     text-decoration: underline;
     margin-bottom: 3px;
     color: darkred;
+}
+
+h1 {
+    color: white;
 }
 
 @media (pointer: coarse) {
